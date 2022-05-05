@@ -13,7 +13,7 @@ $var = 5;
 </head>
 
 <body>
-    <h1>My HTML/PHP page</h1>
+    <h1>Hello World</h1>
     <?php
     echo $var;
     ?>
