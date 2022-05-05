@@ -54,17 +54,22 @@ $a--;
 
 
 // 3. Concatenation : Put two(or more) strings together
+// The . represents the concatinatio
 echo "Hello " . $firstName . "<br>";
 
 // 4. Quotes
+// The $something = 'something' let use $something to display a fixed type of text
 $drink = 'beer';
 
 // Using single quotes (display as text)
+// single quotes lets us use $something inside a text
 echo 'I need a $drink<br>';
 echo 'I need a ' . $drink . '<br>';
 
 // Using double quotes
+// /double quotes = sting
 echo "I need a $drink<br>";
 
 // 5. Escaping characters
+//  \ for escaping characters like '
 echo 'It\'s easy!';

@@ -19,6 +19,7 @@ var_dump($movies);
 echo '</pre>';
 
 // Access an element of the array
+// [] represents the number of the arrayarray 
 echo $movies[1];
 
 // Update/Override value

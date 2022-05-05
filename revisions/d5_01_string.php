@@ -23,10 +23,11 @@ echo str_replace('beer', 'coca-cola', $string);
 echo strlen($string) . '<br>';
 
 // Retrieve only one part of the string
+// chars count from 0
 $string = 'Here, take a beer.';
-echo substr($string, 12) . '<br>';
-echo substr($string, -5) . '<br>';
-echo substr($string, 6, 4) . '<br>';
+echo substr($string, 12) . '<br>'; //  take string from the 12th char position
+echo substr($string, -5) . '<br>'; // takes the string from the -5th position and displays it
+echo substr($string, 6, 4) . '<br>'; // takes the 6th char position and displays 4 chars
 
 // Convert a string into an array
 $string = 'simon;venus;ashkan';

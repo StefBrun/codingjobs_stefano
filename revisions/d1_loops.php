@@ -52,6 +52,9 @@ foreach ($movies as $key => $value) {
 }
 
 // You can change the name of those two default variables
+//$position is the key 
+//$title is the value
+// for each (array in position and title) {do something}
 foreach ($movies as $position => $title) {
     // echo $position . " " . $title . "<br>";
 }
