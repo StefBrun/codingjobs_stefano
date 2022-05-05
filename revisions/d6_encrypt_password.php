@@ -21,5 +21,5 @@ echo $hashed_password;
 echo '<hr>';
 
 // Check if password match
-if (password_verify('1234', $hashed_password))
+if (password_verify('1234', $hashed_password)) // instead of '1234  $password
     echo 'Password matches !';
